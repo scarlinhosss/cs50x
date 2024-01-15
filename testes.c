@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    int answer = get_int("What's your name? ");
-    printf("hello, %i/n", answer);
+    char answer = get_char("Type (y) for yes and (n) for no: ");
+    printf("Your choice was: %c", answer);
 }
