@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("Boa tarde! Agora são 4 horas em ponto!");
+    printf("Boa tarde!\nAgora são 4 horas em ponto!\n");
 }
