@@ -2,5 +2,6 @@
 
 int main(void)
 {
-    printf("Boa tarde!\nAgora são 4 horas em ponto!\n");
+    string answer = get_string("What's your name? ");
+    printf("hello, %s/n", answer);
 }
